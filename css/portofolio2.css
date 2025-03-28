@@ -7,7 +7,7 @@
     text-decoration: none;
     border: none;
     outline: none;    
-    font-family: "Poppins" ;
+    font-family: "Poppins";
 }
 :root{
     --bg-color:#1f242d;
@@ -67,7 +67,7 @@ section{
 }
 #home{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     line-height: 1.5;
     
@@ -84,8 +84,8 @@ section{
 
 .home-img img{
     width:150px;
-    /* height:300px; */
-    border-radius: 70%;;
+    height:200px;
+    /* border-radius:800px;; */
     animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage{
@@ -230,7 +230,8 @@ span:hover{
 
 /* service */
 .services h2{
-    margin-bottom: 5rem;
+    margin-bottom: 1.2rem;
+    margin-top: -4rem;
 }
 .services-container{
     display: flex;
@@ -289,7 +290,8 @@ span:hover{
     
 }
 .portofolio h2{
-    margin-bottom: 7rem;
+    margin-bottom: 1.3rem;
+    margin-top: -3rem;
 }
 .portofolio-container{
     display:grid;
@@ -371,13 +373,14 @@ span:hover{
 
 /* contact */
 .contact h2{
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: -2rem;
 }
 .contact{
     align-items: center;
 }
 .container{
-    width:100%;
+    /* width:100%; */
     display: flex;
     justify-content: center;
     align-items:center ;
